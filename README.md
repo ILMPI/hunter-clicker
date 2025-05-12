@@ -1,38 +1,135 @@
-# sv
+# ⚔️ Monster Clicker - A Svelte Clicker Game
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Welcome to **Monster Clicker**, an idle-clicker game built with Svelte.  
+Slay monsters, earn loot, and grow stronger!  
 
-## Creating a project
+Inspired by classics like Cookie Clicker and incremental RPGs, this project is perfect for learning frontend dev, state management, game loops, and progressive save systems.
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
+
+## 🚀 Getting Started
+
+### 1. Clone & Setup
 
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+git clone https://github.com/yourname/monster-clicker.git
+cd monster-clicker
+npm install
 ```
+2. Development Mode
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
+# or to auto-open
 npm run dev -- --open
-```
 
-## Building
+Project Structure
 
-To create a production version of your app:
+    src/
 
-```bash
-npm run build
-```
+        components/ – UI Components
 
-You can preview the production build with `npm run preview`.
+        lib/ – Utilities & game logic
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+        routes/ – SvelteKit pages (if using SvelteKit)
+
+        assets/ – Images, icons, sprites
+
+    public/ – Static assets
+
+    README.md – This file!
+
+    Features
+
+    Click to attack and defeat monsters
+
+    Gain gold and experience
+
+    Level up your hero
+
+    Buy upgrades & weapons
+
+    Procedural monster difficulty
+
+    Save/load game state to localStorage
+
+    Mobile responsive
+    Roadmap
+MVP
+
+Basic click to attack
+
+Health bars, monster damage
+
+Gold drops + upgrade store
+
+    Game state saved in localStorage
+
+Upcoming
+
+Boss monsters & waves
+
+Player leveling system
+
+Skills & spells
+
+Passive damage
+
+Achievements
+
+Audio effects
+
+    Art & animations
+
+🖼️ Screenshots
+
+Add screenshots or gifs here
+🧙 Tech Stack
+
+    Svelte – UI framework
+
+    TailwindCSS – Styling
+
+    TypeScript – (optional)
+
+    Vite – Build tool
+
+🧪 Testing
+
+To be added in future versions – planning to use:
+
+    vitest or jest
+
+    playwright for E2E
+
+🎮 Contributing
+
+PRs welcome!
+Check CONTRIBUTING.md (coming soon)
+Open an issue to discuss new ideas or bugs.
+📦 Deployment
+
+Recommended:
+
+    Netlify – Drag/drop or npm run build + upload /dist
+
+    Vercel
+
+    Replit
+
+⚠️ Known Issues
+
+    Sprite art is placeholder
+
+    Mobile drag not fully optimized
+
+🧙 Credits
+
+Created by @yourname
+Monsters generated with DALL·E, sounds via Freesound
+🪙 Support
+
+Like the game? Toss a coin to your dev!
+Buy Me a Coffee
+🏁 License
+
+MIT License
